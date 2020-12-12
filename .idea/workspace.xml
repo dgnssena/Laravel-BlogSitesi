@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="2nd commit video 6">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/test.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -161,6 +164,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Php\Laravel2\resources\views\home" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -177,18 +185,30 @@
       <option name="presentableId" value="Default" />
       <updated>1607252154099</updated>
       <workItem from="1607252155481" duration="2331000" />
-      <workItem from="1607771954601" duration="2417000" />
+      <workItem from="1607771954601" duration="11525000" />
     </task>
+    <task id="LOCAL-00001" summary="2nd commit video 6">
+      <created>1607774807840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607774807840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd commit video 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit video 6" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607773989806">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607774917123">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607773989806" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607774917123" />
     <state width="1171" height="164" key="GridCell.Tab.0.bottom" timestamp="1607268722797">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -205,5 +225,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1171" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1607775487355">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1607775487355" />
+    <state x="614" y="134" key="RollbackChangesDialog" timestamp="1607789186191">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="614" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1607789186191" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607774842473">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607774842473" />
   </component>
 </project>
