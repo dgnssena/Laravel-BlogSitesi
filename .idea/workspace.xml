@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="" />
+    <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="2nd commit video 6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +19,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,6 +144,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lHRi2IdVp8n61fbIjlXt5Z58RO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -170,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607252154099</updated>
-      <workItem from="1607252155481" duration="1715000" />
+      <workItem from="1607252155481" duration="2331000" />
+      <workItem from="1607771954601" duration="2417000" />
     </task>
     <servers />
   </component>
@@ -178,21 +185,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1171" height="164" key="GridCell.Tab.0.bottom" timestamp="1607252548458">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607773989806">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1171" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607252548458" />
-    <state width="1171" height="164" key="GridCell.Tab.0.center" timestamp="1607252548458">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607773989806" />
+    <state width="1171" height="164" key="GridCell.Tab.0.bottom" timestamp="1607268722797">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1171" height="164" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607252548458" />
-    <state width="1171" height="164" key="GridCell.Tab.0.left" timestamp="1607252548458">
+    <state width="1171" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
+    <state width="1171" height="164" key="GridCell.Tab.0.center" timestamp="1607268722797">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1171" height="164" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607252548458" />
-    <state width="1171" height="164" key="GridCell.Tab.0.right" timestamp="1607252548458">
+    <state width="1171" height="164" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
+    <state width="1171" height="164" key="GridCell.Tab.0.left" timestamp="1607268722797">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1171" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607252548458" />
+    <state width="1171" height="164" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
+    <state width="1171" height="164" key="GridCell.Tab.0.right" timestamp="1607268722797">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1171" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
   </component>
 </project>
