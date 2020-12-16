@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="2nd commit video 6">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/test.blade.php" afterDir="false" />
+    <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="2nd commit video 6&#10;3th commit video">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +186,10 @@
       <option name="presentableId" value="Default" />
       <updated>1607252154099</updated>
       <workItem from="1607252155481" duration="2331000" />
-      <workItem from="1607771954601" duration="11525000" />
+      <workItem from="1607771954601" duration="11716000" />
+      <workItem from="1607800772057" duration="11000" />
+      <workItem from="1608045972481" duration="272000" />
+      <workItem from="1608125952829" duration="11113000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -194,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607774807840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit video 6&#10;3th commit video">
+      <created>1607800660778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607800660778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,13 +213,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd commit video 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit video 6" />
+    <MESSAGE value="2nd commit video 6&#10;3th commit video" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit video 6&#10;3th commit video" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607774917123">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1607800734091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607774917123" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1607800734091" />
     <state width="1171" height="164" key="GridCell.Tab.0.bottom" timestamp="1607268722797">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -225,17 +237,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1171" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
-    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1607775487355">
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1608126833812">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1607775487355" />
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1608126833812" />
     <state x="614" y="134" key="RollbackChangesDialog" timestamp="1607789186191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="614" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1607789186191" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607774842473">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607800667113">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607774842473" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607800667113" />
   </component>
 </project>

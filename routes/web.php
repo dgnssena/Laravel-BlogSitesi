@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/test/{id}/{name}', [HomeController::class, 'test'])->where('id','[0-9]+')->where('name', '[A-Za-z]+')->name('test');
-
+Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

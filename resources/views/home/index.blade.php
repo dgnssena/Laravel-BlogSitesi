@@ -1,13 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Blog Sitesi</title>
-</head>
-<body>
+@extends('layouts.home')
 
-<h1>Welcome to my blog </h1>
-<p>This is a paragraph.</p>
-<br>
-<a href="{{route('test', ['id' => 15, 'name' => 'Dogan'])}}">Test Sayfası</a>
-</body>
-</html>
+@section('title','Sub Page Title')
+
+@section('sidebar')
+    <div class="col-sm-4 col-lg-2">
+        <ul>
+            <li>Gezi</li>
+            <li>Teknoloji</li>
+            <li>Fotoğrafcılık</li>
+            <li>Yemek</li>
+            <li>Ticaret</li>
+            <li>Ekonomi</li>
+            <li>Alışveriş</li>
+        </ul>
+    </div>
+
+@endsection
+
+
+@section('content')
+    <div class="col-sm-8 col-lg-10">
+    <h1>Slider</h1>
+    SENA DOĞAN
+    <h1>İçerikler</h1>
+    Blog
+    </div>
+@endsection
