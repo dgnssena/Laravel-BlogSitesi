@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="2nd commit video 6&#10;3th commit video">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +194,10 @@
       <workItem from="1607800772057" duration="11000" />
       <workItem from="1608045972481" duration="272000" />
       <workItem from="1608125952829" duration="11113000" />
+      <workItem from="1608567670258" duration="589000" />
+      <workItem from="1608718659016" duration="1873000" />
+      <workItem from="1608833308763" duration="16000" />
+      <workItem from="1609099289750" duration="8205000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -237,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1171" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607268722797" />
-    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1608126833812">
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1609105578533">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1608126833812" />
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1609105578533" />
     <state x="614" y="134" key="RollbackChangesDialog" timestamp="1607789186191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -249,5 +257,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607800667113" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1609103176063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1609103176063" />
   </component>
 </project>
