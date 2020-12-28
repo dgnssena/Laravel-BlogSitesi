@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Travel | Bootstrap blog</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@yield('title')</title>
+    <meta name="description" content=@yield('description')>
+    <meta name="viewport" content=@yield('viewport')>
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="{{asset('assets')}}/vendor/bootstrap/css/bootstrap.min.css"/>
@@ -29,13 +29,13 @@
 @include('home._header')
 @include('home._category')
 @include('home._menu')
-<!-- Navbar 1 -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
-    <div class="container text-center"><a class="navbar-brand mx-auto" href="index.html"><img class="mb-2" src="img/logo.svg" alt="" width="140">
-            <p class="text-small text-uppercase text-gray mb-0">Your world</p></a></div>
+@include('home._ınstagram')
+@include('home._travel')
 
 
-</nav>
+
+
+
 
 </header>
 @include('home._footer')
