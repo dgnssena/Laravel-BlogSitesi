@@ -6,6 +6,7 @@
 @endsection
 
 @section('content')
+    @include('home._category')
     <!-- Divider Section -->
     <section class="py-5">
         <div class="container py-4">
@@ -15,7 +16,7 @@
                     <div class="h-100 bg-light d-flex align-items-center">
                         <div class="py-5 pr-4 pl-3 pl-lg-0">
                             <p class="text-primary font-weight-bold small text-uppercase mb-2">Travel guide</p>
-                            <h3 class="h4"> <a class="text-reset" href="post.html">Book to inspire your travel</a></h3>
+                            <h3 class="h4"> <a class="text-reset" href="{{asset('assets')}}/post.html"/>Book to inspire your travel</a></h3>
                             <p class="text-muted text-small mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quam nobis autem voluptate illum beatae atque suscipit inventore tenetur, perferendis facere sequi optio laudantium obcaecati aliquam, dolores ea. Pariatur, repellendus.</p>
                             <p class="text-muted text-small mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quam nobis autem voluptate illum beatae atque suscipit inventore tenetur, perferendis facere sequi optio laudantium obcaecati aliquam, dolores ea. Pariatur, repellendus.</p>
                             <ul class="list-inline small text-uppercase mb-0">
@@ -28,7 +29,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 pl-lg-0 order-1 order-lg-2"><a class="d-block h-100 bg-center bg-cover" href="post.html" style="background: url(/img/travel-home-divider.jpg)"></a></div>
+                <div class="col-lg-6 pl-lg-0 order-1 order-lg-2"><a class="d-block h-100 bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/travel-home-divider.jpg)"/></div>
             </div>
         </div>
     </section>
@@ -104,15 +105,5 @@
             </div>
         </div>
     </section>
-    <!-- Sponsors section-->
-    <section class="py-5">
-        <div class="container py-4">
-            <header class="text-center mb-4">
-                <h2>Our sponsors</h2>
-            </header>
-            <!-- Brands -->
-            <div class="owl-carousel sponsors-slider"><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-1.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-2.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-3.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-4.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-5.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="img/brand-6.svg" alt=""></a>
-            </div>
-        </div>
-    </section>
+
 @endsection
