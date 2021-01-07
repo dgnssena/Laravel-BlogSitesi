@@ -29,19 +29,6 @@
                     <div class="x_panel">
                         <div class="x_title">
 
-                            <ul class="nav navbar-right panel_toolbox">
-                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Settings 1</a>
-                                        <a class="dropdown-item" href="#">Settings 2</a>
-                                    </div>
-                                </li>
-                                <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                </li>
-                            </ul>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
@@ -66,79 +53,72 @@
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>
-                                    <form role="form"action="{{route('admin_category_create')}}" method="post"></form>
-                                    <div class="x_content">
-                                        <br>
-                                        <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                                    <form role="form" action="{{route('admin_category_create')}}" method="post" class="form-horizontal ">
+                                        @csrf
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Parent</label>
+                                            <select class="form-control col-md-9 col-sm-9" name="parent_id">
+                                                <option selected="selected">Main Category</option>
+                                                @foreach ( $datalist as $rs )
+                                                    <option value="{{$rs->id}}">{{$rs->title}}</option>
+                                                @endforeach
+                                            </select>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Title</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" id="title" class="form-control" name="title">
+                                            </div>
+                                        </div>
 
-                                            <div class="item form-group">
-                                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Id <span class="required">*</span>
-                                                </label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input type="text" id="id" required="required" class="form-control ">
-                                                </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Keywords</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" class="form-control" name="keywords">
                                             </div>
-                                            <div class="item form-group">
-                                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="Parent_Id">Parent_Id <span class="required">*</span>
-                                                </label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input type="text" id="last-name" name="parent_id," required="required" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="item form-group">
-                                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="Parent_Id">Tıtle <span class="required">*</span>
-                                                </label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input type="text" id="last-name" name="parent_id," required="required" class="form-control">
-                                                </div>
-                                            </div>
+                                        </div>
 
-                                            <div class="item form-group">
-                                                <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Keywords</label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input id="middle-name" class="form-control" type="text" name="keyword">
-                                                </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Description</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" class="form-control" name="description">
                                             </div>
-                                            <div class="item form-group">
-                                                <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Description</label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input id="middle-name" class="form-control" type="text" name="description">
-                                                </div>
+                                        </div>
+
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Slug</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" class="form-control" name="slug">
                                             </div>
-                                            <div class="item form-group">
-                                                <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Slug</label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <input id="middle-name" class="form-control" type="text" name="slug">
-                                                </div>
-                                            </div>
-                                            <div class="item form-group">
-                                                <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align">Status</label>
-                                                <div class="col-md-6 col-sm-6 ">
-                                                    <select class="form-control " name="status" >
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label class="control-label col-md-3 col-sm-3 ">Status</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <select class="form-control" name="status">
                                                     <option selected="selected">False</option>
                                                     <option>True</option>
                                                 </select>
                                             </div>
-                                                <div class="ln_solid"></div>
-                                                <div class="item form-group">
-                                                    <div class="col-md-6 col-sm-6 offset-md-3">
-                                                        <button class="btn btn-primary" type="button">Cancel</button>
-                                                        <button class="btn btn-primary" type="reset">Reset</button>
-                                                        <button type="submit" class="btn btn-success">Add Category</button>
-                                                    </div>
-                                                </div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-9 col-sm-9  offset-md-3">
+                                                <button type="submit" class="btn btn-success">Add Category</button>
                                             </div>
-                                        </form>
-                                    </div>
+                                        </div>
+
+                                    </form>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
     <!-- /page content -->
-
-
 @endsection
