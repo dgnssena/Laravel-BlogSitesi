@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Add Category')
+@section('title','Add Product')
 
 @section('content')
     <!-- page content -->
@@ -7,7 +7,7 @@
         <div class="">
             <div class="page-title">
                 <div class="title_left">
-                    <h3>Add Category</h3>
+                    <h3>Add Product</h3>
                 </div>
 
                 <div class="title_right">
@@ -53,12 +53,11 @@
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>
-                                    <form role="form" action="{{route('admin_category_create')}}" method="post" class="form-horizontal ">
+                                    <form role="form" action="{{route('admin_product_store')}}" method="post" enctype="multipart/form-data" class="form-horizontal " style="width: 100%">
                                         @csrf
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Parent</label>
-                                            <select class="form-control col-md-9 col-sm-9" name="parent_id">
-                                                <option selected="selected">Main Category</option>
+                                            <select class="form-control col-md-9 col-sm-9" name="category_id">
                                                 @foreach ( $datalist as $rs )
                                                     <option value="{{$rs->id}}">{{$rs->title}}</option>
                                                 @endforeach
@@ -86,6 +85,25 @@
                                         </div>
 
                                         <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Detail</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" class="form-control" name="detail">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Like</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="number" class="form-control" name="like">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Post</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" class="form-control" name="post">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Slug</label>
                                             <div class="col-md-9 col-sm-9 ">
                                                 <input type="text" class="form-control" name="slug">
@@ -104,7 +122,7 @@
                                         <div class="ln_solid"></div>
                                         <div class="form-group">
                                             <div class="col-md-9 col-sm-9  offset-md-3">
-                                                <button type="submit" class="btn btn-success">Add Category</button>
+                                                <button type="submit" class="btn btn-success">Add Product</button>
                                             </div>
                                         </div>
 

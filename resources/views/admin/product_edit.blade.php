@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','Add Category')
+@section('title','Edit Product')
 
 @section('content')
     <!-- page content -->
@@ -7,7 +7,7 @@
         <div class="">
             <div class="page-title">
                 <div class="title_left">
-                    <h3>Add Category</h3>
+                    <h3>Edit Product</h3>
                 </div>
 
                 <div class="title_right">
@@ -53,12 +53,11 @@
                                         </ul>
                                         <div class="clearfix"></div>
                                     </div>
-                                    <form role="form" action="{{route('admin_category_create')}}" method="post" class="form-horizontal ">
+                                    <form class="form-horizontal form-label-left" action="{{route('admin_product_update', ['id'=> $data -> id ])}}" method="post" enctype="multipart/form-data" style="width: 100%">
                                         @csrf
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Parent</label>
-                                            <select class="form-control col-md-9 col-sm-9" name="parent_id">
-                                                <option selected="selected">Main Category</option>
+                                            <select class="form-control col-md-9 col-sm-9" name="category_id">
                                                 @foreach ( $datalist as $rs )
                                                     <option value="{{$rs->id}}">{{$rs->title}}</option>
                                                 @endforeach
@@ -67,28 +66,48 @@
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Title</label>
                                             <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" id="title" class="form-control" name="title">
+                                                <input type="text" name="title" class="form-control" value="{{$data->title}}" placeholder="Default Input">
                                             </div>
                                         </div>
 
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Keywords</label>
                                             <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="keywords">
+                                                <input type="text" name="keywords" class="form-control" value="{{$data->keywords}}" placeholder="Default Input">
                                             </div>
                                         </div>
 
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Description</label>
                                             <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="description">
+
+                                                <input type="text" name="description" class="form-control" value="{{$data->description}}" placeholder="Default Input">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Detail</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" name="detail" class="form-control" placeholder="Default Input" value="{{$data->detail}}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Like</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="number" name="like" class="form-control" placeholder="Default Input" value="{{$data->like}}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row ">
+                                            <label class="control-label col-md-3 col-sm-3 ">Post</label>
+                                            <div class="col-md-9 col-sm-9 ">
+                                                <input type="text" name="post" class="form-control" placeholder="Default Input" value="{{$data->post}}">
                                             </div>
                                         </div>
 
                                         <div class="form-group row ">
                                             <label class="control-label col-md-3 col-sm-3 ">Slug</label>
                                             <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="slug">
+                                                <input type="text" name="slug" class="form-control" placeholder="Default Input" value="{{$data->slug}}">
                                             </div>
                                         </div>
 
@@ -104,7 +123,7 @@
                                         <div class="ln_solid"></div>
                                         <div class="form-group">
                                             <div class="col-md-9 col-sm-9  offset-md-3">
-                                                <button type="submit" class="btn btn-success">Add Category</button>
+                                                <button type="submit" class="btn btn-success">Update Product</button>
                                             </div>
                                         </div>
 
