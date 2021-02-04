@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -236,7 +235,15 @@
       <workItem from="1610441413356" duration="10251000" />
       <workItem from="1610555455950" duration="1530000" />
       <workItem from="1611846216426" duration="586000" />
-      <workItem from="1611864683792" duration="4211000" />
+      <workItem from="1611864683792" duration="4539000" />
+      <workItem from="1611942622570" duration="6317000" />
+      <workItem from="1612014444074" duration="8717000" />
+      <workItem from="1612032685267" duration="1897000" />
+      <workItem from="1612084144272" duration="13843000" />
+      <workItem from="1612281789103" duration="6705000" />
+      <workItem from="1612357910951" duration="10149000" />
+      <workItem from="1612458086793" duration="757000" />
+      <workItem from="1612458943845" duration="4495000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -301,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610030985863</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13">
+      <created>1611869123488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611869123488</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,80 +331,7 @@
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="194" y="273" key="#SQL_Dialects" timestamp="1609857725609">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="194" y="273" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1609857725609" />
-    <state x="477" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610210234923">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="477" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1610210234923" />
-    <state x="499" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610452959727">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="499" y="187" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1610452959727" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1610030983696">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1610030983696" />
-    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1609622788534">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1536.864@0.0.1536.864" timestamp="1609622788534" />
-    <state width="1024" height="224" key="GridCell.Tab.0.bottom" timestamp="1609624725229">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1024" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609624725229" />
-    <state width="1024" height="224" key="GridCell.Tab.0.center" timestamp="1609624725228">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1024" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609624725228" />
-    <state width="1024" height="224" key="GridCell.Tab.0.left" timestamp="1609624725228">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1024" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609624725228" />
-    <state width="1024" height="224" key="GridCell.Tab.0.right" timestamp="1609624725229">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1024" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609624725229" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1609621062786">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1609621062786" />
-    <state x="555" y="155" key="NewPhpClassDialog" timestamp="1610022506910">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="555" y="155" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1610022506910" />
-    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1609709870418">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1609709870418" />
-    <state x="614" y="134" key="RollbackChangesDialog" timestamp="1607789186191">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="614" y="134" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1607789186191" />
-    <state x="277" y="77" key="SettingsEditor" timestamp="1610040925415">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1610040925415" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610030998906">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1610030998906" />
-    <state x="668" y="309" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1609623566934">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="668" y="309" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.864@0.0.1536.864" timestamp="1609623566934" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1610556286694">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1610556286694" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1610227353944">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1610227353944" />
+    <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
   </component>
 </project>

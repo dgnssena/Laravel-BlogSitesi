@@ -4,6 +4,7 @@
         <ul class="nav side-menu">
             <li><a href="{{route('admin_category')}}"><i class="fa fa-edit"></i> Category </a></li>
             <li><a href="{{route('admin_products')}}"><i class="fa fa-desktop"></i> Products </a></li>
+            <li><a href="{{route('admin_setting')}}"><i class="fa fa-edit"></i> Setting </a></li>
         </ul>
     </div>
 
