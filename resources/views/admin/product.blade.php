@@ -40,6 +40,7 @@
                                                 <tr>
 
                                                     <th>id</th>
+                                                    <th>category</th>
                                                     <th>title</th>
                                                     <th>description</th>
                                                     <th>post</th>
@@ -58,6 +59,7 @@
                                         <tr>
 
                                             <td>{{$rs->id}}</td>
+                                            <td>{{$rs->category->title}}</td>
                                             <td>{{$rs->title}}</td>
                                             <td>{{$rs->description}}</td>
                                             <td>{{$rs->post}}</td>

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/image_add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/setting_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +235,7 @@
       <workItem from="1612281789103" duration="6705000" />
       <workItem from="1612357910951" duration="10149000" />
       <workItem from="1612458086793" duration="757000" />
-      <workItem from="1612458943845" duration="4495000" />
+      <workItem from="1612458943845" duration="6414000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -315,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611869123488</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17">
+      <created>1612465328559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612465328559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +331,7 @@
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
+    <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17" />
   </component>
 </project>
