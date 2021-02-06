@@ -57,11 +57,13 @@
                                         <form class="form-horizontal form-label-left" action="{{route('admin_product_update', ['id'=> $data -> id ])}}" method="post" enctype="multipart/form-data">
                                             @csrf
                                             <div class="form-group row ">
-                                                <label class="control-label col-md-3 col-sm-3 ">Parent</label>
+                                                <label class="control-label col-md-3 col-sm-3 ">Category</label>
                                                 <div class="col-md-9 col-sm-9 ">
                                                     <select class="form-control" name="category_id">
                                                         @foreach($datalist as $rs)
-                                                            <option value="{{$rs->id}}">{{$rs->title}}</option>
+                                                            <option value="{{$rs->id}}" @if($rs->id==$data->parent_id) selected="selected" @endif>
+                                                                {{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}
+                                                            </option>
                                                         @endforeach
                                                     </select>
                                                 </div>

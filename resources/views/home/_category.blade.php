@@ -20,12 +20,17 @@
                 <p class="small text-uppercase mb-0"></p>
                 <h2 class="h3 mb-4">YEMEK</h2>
                 <div class="btn btn-primary btn-block destination-btn text-white">Başlayalım mı?</div>
-            </div></a><a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/blog-home-guzellik.jpg)"/>
+            </div></a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/blog-home-guzellik.jpg)"/>
             <div class="destination-inner w-100 text-center text-white index-forward has-transition">
                 <p class="small text-uppercase mb-0"></p>
                 <h2 class="h3 mb-4">GÜZELLİK</h2>
-                <div class="btn btn-primary btn-block destination-btn text-white">Başlayalım mı?</div>
-            </div></a><a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/blog-home-SPOR.jpg)"/>
+                <div class="btn btn-primary btn-block destination-btn text-white">
+                    <p class="small text-uppercase mb-0">Başlayalım mı?</p>
+                </div>
+            </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/blog-home-SPOR.jpg)"/>
             <div class="destination-inner w-100 text-center text-white index-forward has-transition">
                 <p class="small text-uppercase mb-0"></p>
                 <h2 class="h3 mb-4">SPOR</h2>

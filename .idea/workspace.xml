@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/home/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +251,9 @@
       <workItem from="1612281789103" duration="6705000" />
       <workItem from="1612357910951" duration="10149000" />
       <workItem from="1612458086793" duration="757000" />
-      <workItem from="1612458943845" duration="6414000" />
+      <workItem from="1612458943845" duration="11671000" />
+      <workItem from="1612517951089" duration="19603000" />
+      <workItem from="1612602352768" duration="17418000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -314,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612465328559</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18">
+      <created>1612467634598</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612467634598</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +357,7 @@
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17" />
+    <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18" />
   </component>
 </project>

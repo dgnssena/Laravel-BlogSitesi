@@ -1,9 +1,17 @@
+@php
+   $setting=\App\Http\Controllers\HomeController::getSetting()
+@endphp
+
+
 @extends('layouts.home')
 
-@section('title','Laravel Blog Sitesi')
+@section('title',$setting->title)
 @section('description')
-    En samimi blog...
+    {{$setting->description}}
+
 @endsection
+
+@section('keywords',$setting->keywords)
 
 @section('content')
 
@@ -83,7 +91,8 @@
         <header class="text-center mb-4">
             <h2>Our sponsors</h2>
         </header>
-        <!-- Brands -->
+
+
         <div class="owl-carousel sponsors-slider"><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-1.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-2.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-3.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-4.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-5.svg" alt=""></a><a href="#"><img class="d-block mx-auto my-3 sponsor" src="{{ asset('assets')}}/img/brand-6.svg" alt=""></a>
         </div>
     </div>

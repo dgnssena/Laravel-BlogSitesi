@@ -56,11 +56,11 @@
                                     <form role="form" action="{{route('admin_category_create')}}" method="post" class="form-horizontal ">
                                         @csrf
                                         <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Parent</label>
+                                            <label class="control-label col-md-3 col-sm-3 ">Category</label>
                                             <select class="form-control col-md-9 col-sm-9" name="parent_id">
                                                 <option selected="selected">Main Category</option>
                                                 @foreach ( $datalist as $rs )
-                                                    <option value="{{$rs->id}}">{{$rs->title}}</option>
+                                                    <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}</option>
                                                 @endforeach
                                             </select>
                                         </div>

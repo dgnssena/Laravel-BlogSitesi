@@ -22,8 +22,13 @@ Route::get('/',function () {
     return view('home.index');
 });
 
+
+
 Route::get('/home',[HomeController::class,'index'])->name('home');
 Route::get('/aboutus',[HomeController::class,'aboutus'])->name('aboutus');
+Route::get('/post',[HomeController::class,'post'])->name('post');
+
+
 
 
 //Route::get('/test/{id}/{name}',[HomeController::class,'test'])->where(['id'=>'[0-9])+','name'=>'[A-Za-z]+']);
@@ -72,7 +77,8 @@ Route::prefix('image')->group(function() {
 
 Route::get('/admin/login',[HomeController::class,'login'])->name('admin_login');
 Route::post('/admin/logincheck',[HomeController::class,'logincheck'])->name('admin_logincheck');
-Route::get('/admin/logout',[HomeController::class,'logout'])->name('admin_logout');
+Route::get('/logout',[HomeController::class,'logout'])->name('logout');
+
 
 
 
