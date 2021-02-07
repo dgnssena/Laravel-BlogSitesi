@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7bd6bc-7b40-4fdf-a324-742f99b18474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/home/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blank.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/_blank.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/product_detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/user_profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/appx.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/product_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/user_profile.blank.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/usermenu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +169,7 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,8 +182,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Php\Laravel2\resources\views\admin" />
       <recent name="C:\Php\Laravel2\resources\views\home" />
+      <recent name="C:\Php\Laravel2\resources\views\layouts" />
+      <recent name="C:\Php\Laravel2\resources\views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,7 +249,8 @@
       <workItem from="1612458086793" duration="757000" />
       <workItem from="1612458943845" duration="11671000" />
       <workItem from="1612517951089" duration="19603000" />
-      <workItem from="1612602352768" duration="17418000" />
+      <workItem from="1612602352768" duration="18217000" />
+      <workItem from="1612677989764" duration="15104000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit video 6">
       <created>1607774807840</created>
@@ -339,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612467634598</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18&#10;commit video 19-20">
+      <created>1612641102884</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612641102884</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +362,7 @@
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17" />
     <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18" />
+    <MESSAGE value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18&#10;commit video 19-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit &#10;3th commit video&#10;3th commit video6&#10;commit video6 cnt&#10;commit video8&#10;commit video9&#10;commit video10-11&#10;commit video11&#10;commit video12-13&#10;commit video 14-15-16-17&#10;commit video 18&#10;commit video 19-20" />
   </component>
 </project>

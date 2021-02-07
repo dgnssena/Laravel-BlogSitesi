@@ -6,14 +6,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-4">
                     <ul class="list-inline mb-0 text-small">
-                        <li class="list-inline-item"><a class="reset-anchor" href="#">About us</a></li>
+                        <li class="list-inline-item"><a class="reset-anchor" href="{{route('aboutus')}}">About us</a></li>
                         <li class="list-inline-item">|</li>
                         <li class="list-inline-item"><a class="reset-anchor" href="#">Sitemap</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block text-center">
                     <ul class="list-inline mb-0 small">
-                        @if($setting->facebook !=null)<li><a href="{{$setting->facebook}}"><i class="fab fa-facebook-f"></i></a></li>@endif
+
                         <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
                         <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a></li>
@@ -28,24 +28,28 @@
                 </form>
             </div>
 
-            <li class="nav-item mt-4 mt-lg-0">
+            <li class="nav-item mt-3 mt-lg-0">
             @auth
-                <li class="dropdown-menu"><a href="" data-toggle="dropdown" aria-expanded="false"><b>{{ Auth::user()->name }}</b></a>
+                <li class="nav-item dropdownmenu-right"><a href="" data-toggle="dropdown" aria-expanded="false"><b>{{ Auth::user()->name }}</b></a>
                     <ul style="">
                         <li>
-                            <div class="dropdown-menu-left">@include('home.usermenu')</div>
+                            <div class="dropdown-menu-right">
+                                @include('home.usermenu')
+                            </div>
                         </li>
                     </ul>
                 </li>
             @endauth
             @guest
-                </li>
-                <div class="col-lg-4 d-none d-lg-block text-right">
-                    <div class="dropdown text-small"><a class="reset-anchor dropdown-toggle" id="usermenu" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe-americas mr-2"></i>Login</a>
-                        <div class="dropdown-menu" aria-labelledby="usermenu"><a class="dropdown-item text-small" href="{{route('login')}}">Login</a><a class="dropdown-item text-small" href="{{route('register')}}">Sign Up</a><a class="dropdown-item text-small" href="#"></a><a class="dropdown-item text-small" href="#">Log Out</a></div>
+                <li class="nav-item dropdownmenu-right">
+                    <a class="nav-link" href="" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login / Join </a>
+                    <div class="dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{route('login')}}">Login</a>
+                        <a class="dropdown-item" href="{{route('register')}}">Join</a>
                     </div>
-                </div>
-            @endguest
+                </li>
+                @endguest
+                </li>
 
 
 

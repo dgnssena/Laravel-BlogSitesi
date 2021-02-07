@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -74,10 +75,15 @@ Route::prefix('image')->group(function() {
     Route::post('setting/update',[App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin_setting_update');
 
 });
+Route::middleware('auth')-> prefix('myaccount')->namespace('myaccount')->group(function(){
+    Route::get('/',[UserController::class,'index'])->name('myprofile');
+
+});
 
 Route::get('/admin/login',[HomeController::class,'login'])->name('admin_login');
 Route::post('/admin/logincheck',[HomeController::class,'logincheck'])->name('admin_logincheck');
 Route::get('/logout',[HomeController::class,'logout'])->name('logout');
+Route::get('/admin/logout',[HomeController::class,'admin_logout'])->name('admin_logout');
 
 
 

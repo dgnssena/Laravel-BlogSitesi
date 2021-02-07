@@ -1,13 +1,13 @@
-@extends('layouts.home')
+@extends('layouts.about')
 
 @section('title','About Us')
 
 @section('content')
     <div class="col-sm-12"  href="{{route('aboutus')}}">
-        <h1>About Us</h1>
-        ssssss<br>
-        dddddd<br>
 
+        <h1>WELCOME</h1>
+
+        {{ $setting->aboutus}}
 
 
     </div>
