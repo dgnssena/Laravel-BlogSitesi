@@ -10,7 +10,7 @@
                 <p class="small text-uppercase mb-0"></p>
                 <h2 class="h3 mb-4">GEZİ</h2>
                 <div class="btn btn-primary btn-block destination-btn text-white">Başlayalım mı?</div>
-            </div></a><a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url({{asset('assets')}}/img/blog-home-foto.jpg)"/>
+            </div></a><a class="destination d-flex align-items-end bg-center bg-cover" href="#" style="background: url({{asset('assets')}}/img/blog-home-foto.jpg)"/>
             <div class="destination-inner w-100 text-center text-white index-forward has-transition">
                 <p class="small text-uppercase mb-0"></p>
                 <h2 class="h3 mb-4">FOTOĞRAFÇILIK</h2>

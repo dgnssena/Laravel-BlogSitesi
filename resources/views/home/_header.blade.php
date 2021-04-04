@@ -7,8 +7,7 @@
                 <div class="col-lg-4">
                     <ul class="list-inline mb-0 text-small">
                         <li class="list-inline-item"><a class="reset-anchor" href="{{route('aboutus')}}">About us</a></li>
-                        <li class="list-inline-item">|</li>
-                        <li class="list-inline-item"><a class="reset-anchor" href="#">Sitemap</a></li>
+
                     </ul>
                 </div>
                 <div class="col-lg-4 d-none d-lg-block text-center">
@@ -78,7 +77,7 @@
                         <!-- Link--><a class="nav-link" href="post.html">Post</a>
                     </li>
                     <li class="nav-item px-1 dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
-                        <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="index.html">Home</a><a class="dropdown-item" href="listing.html">Listing</a><a class="dropdown-item" href="post.html">Post</a></div>
+                        <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdownMenuLink"><a class="dropdown-item" href="index.html">Gezi</a><a class="dropdown-item" href="listing.html">Fotoğrafçılık</a><a class="dropdown-item" href="post.html">Spor</a><a class="dropdown-item" href="post.html">Sanat</a><a class="dropdown-item" href="post.html">Güzellik</a><a class="dropdown-item" href="post.html">Yemek</a><a class="dropdown-item" href="post.html">Teknoloji</a></div>
                     </li>
                 </ul>
             </div>

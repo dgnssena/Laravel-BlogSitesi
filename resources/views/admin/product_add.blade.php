@@ -1,8 +1,6 @@
 @extends('layouts.admin')
 @section('title','Add Product')
-@section('javascript')
-    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
-@endsection
+
 @section('content')
     <!-- page content -->
     <div class="right_col" role="main">
@@ -53,98 +51,99 @@
                                     <div class="x_content">
                                         <br />
 
-            <form role="form" action="{{route('admin_product_store')}}" method="post" enctype="multipart/form-data" class="form-horizontal " >
-                @csrf
-                <div class="form-group row ">
-                    <label class="control-label col-md-3 col-sm-3 ">Category</label>
-                    <select class="form-control col-md-9 col-sm-9" name="category_id">
-                        @foreach ( $datalist as $rs )
-                            <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}</option>
-                        @endforeach
-                    </select>
-                </div>
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Title</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="title">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Keywords</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="keywords">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Description</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="description">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Detail</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <textarea name="detail" id="editor1" class="ckeditor"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Like</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="number" class="form-control" name="like">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Post</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="post">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row ">
-                                            <label class="control-label col-md-3 col-sm-3 ">Slug</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="text" class="form-control" name="slug">
-                                            </div>
-                                        </div>
-                                        <div class="form-group row">
-                                            <label class="control-label col-md-3 col-sm-3 ">Image</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <input type="file" class="form-control" name="image">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <label class="control-label col-md-3 col-sm-3 ">Status</label>
-                                            <div class="col-md-9 col-sm-9 ">
-                                                <select class="form-control" name="status">
-                                                    <option selected="selected">False</option>
-                                                    <option>True</option>
+                                        <form role="form" action="{{route('admin_product_store')}}" method="post" enctype="multipart/form-data" class="form-horizontal " >
+                                            @csrf
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Category</label>
+                                                <select class="form-control col-md-9 col-sm-9" name="category_id">
+                                                    @foreach ( $datalist as $rs )
+                                                        <option value="{{$rs->id}}">{{\App\Http\Controllers\Admin\CategoryController::getParentsTree($rs,$rs->title)}}</option>
+                                                    @endforeach
                                                 </select>
                                             </div>
-                                        </div>
-
-                                        <div class="ln_solid"></div>
-                                        <div class="form-group">
-                                            <div class="col-md-9 col-sm-9  offset-md-3">
-                                                <button type="submit" class="btn btn-success">Add Product</button>
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Title</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="text" class="form-control" name="title">
+                                                </div>
                                             </div>
-                                        </div>
 
-                                    </form>
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Keywords</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="text" class="form-control" name="keywords">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Description</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="text" class="form-control" name="description">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Detail</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <textarea name="detail" id="editor1" class="ckeditor"></textarea>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Like</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="number" class="form-control" name="like">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Post</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="text" class="form-control" name="post">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row ">
+                                                <label class="control-label col-md-3 col-sm-3 ">Slug</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="text" class="form-control" name="slug">
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3 col-sm-3 ">Image</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <input type="file" class="form-control" name="image">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label class="control-label col-md-3 col-sm-3 ">Status</label>
+                                                <div class="col-md-9 col-sm-9 ">
+                                                    <select class="form-control" name="status">
+                                                        <option selected="selected">False</option>
+                                                        <option>True</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="ln_solid"></div>
+                                            <div class="form-group">
+                                                <div class="col-md-9 col-sm-9  offset-md-3">
+                                                    <button type="submit" class="btn btn-success">Add Product</button>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
+
+
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
     <!-- /page content -->
 @endsection
+<script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>

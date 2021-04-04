@@ -1,8 +1,8 @@
 @extends('layouts.home')
 
-@section('title', 'About Us')
-@section('description', $setting->description)
-@section('keywords', $setting->keywords)
+@section('title', $data->title)
+@section('description', $data->description)
+@section('keywords', $data->keywords)
 
 @section('content')
 
@@ -16,7 +16,7 @@
                     <li class="breadcrumb-item">
                         <a href="{{ route('home') }}">Home</a>
                     </li>
-                    <li class="breadcrumb-item active"> About Us </li>
+                    <li class="breadcrumb-item active"> içeriklerr </li>
                 </ol>
             </div>
         </div>

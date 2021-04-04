@@ -8,7 +8,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="d-flex justify-content-between">MyBlog</a>
+                    <a href="{{route('user_products')}}" class="d-flex justify-content-between">MyBlog</a>
                 </li>
                 <li>
                     <a href="{{route('logout')}}" class="d-flex justify-content-between">LOGOUT</a>
